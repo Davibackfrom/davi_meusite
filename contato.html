@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serifs;
+            background-image: linear-gradient(to left, rgb(8, 250, 177),rgb(5, 69, 112));
+        }
+        .box{
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            transform: translate(-50% -50%);
+            background-color: rgba(137, 145, 135, 0.479);
+            padding: 5px;
+            border-radius: 5px;
+            color: wheat;
+            box-shadow: 2px 2px 2px 2px cornflowerblue;
+            
+            
+            
+        }
+        fieldset{
+            border-radius: 8px;
+            border: 3px solid rgb(136, 233, 196);
+            
+        }
+
+        h1{
+            position: absolute;
+            left: 38%;
+            top: 15%;
+        }
+
+        legend{
+            border: 2px solid rgb(91, 252, 145);
+            border-radius: 5px;
+            text-align: center;
+            color: rgb(255, 191, 72);
+        }
+        
+        .inputbox{
+            position: relative;
+        }
+        .inputuser{
+            background: none;
+            border: none;
+            border-bottom:  1px solid blue;
+            border-radius: 5px;
+            outline: none;
+            color: rgb(212, 212, 247);
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 1px;
+            
+        }
+
+        #submit{
+            color: rgb(157, 228, 228);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 6px;
+            border: 4px blue;
+            background-color: blue;
+            box-shadow: 4px 4px  rgb(5, 87, 240);
+            padding: 9px 8px;
+            position: relative;
+            left: 40%;
+            
+            cursor: pointer;
+            
+        }
+
+        .botao{
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            color: rgb(170, 170, 231);
+            background-color: rgb(66, 66, 231);
+            padding: 10px 10px 10px 10px;
+        }
+    
+        
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Preencha o formulario!</h1>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario</b></legend>
+                <br>
+                <div class ="inputbox">
+                    <input type="text" name="nome" id="nome" class="inputuser" required>
+                    <label for="nome">Nome:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                    <label for="telefone">Numero:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="email" id="email" class="inputuser" required>
+                    <label for="email">Email:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" id="testo" class="inputuser" required>
+                    <label for="testo">Texto:</label>
+                </div>
+                <input type ="submit"name="submit" id="submit"> 
+
+             
+
+    
+              
+                
+
+            </fieldset>
+        
+        </form>
+    
+    </div>
+    <a href="index.html"><button class="botao">Voltar para o menu</button></a>
+
+    
+</body>
+</html>

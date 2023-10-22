@@ -1,0 +1,40 @@
+#titulo{  
+text-align: center;
+color: #153957; 
+box-shadow:2px 2px 2px 2px #360138;
+padding: 5px 5px 5px 5px;
+}
+
+
+
+
+#subtitulo{
+color:#046366 ;
+font-family: Arial , Helvetica, sans-serif ;
+font-size: 20px;
+text-align: center;
+padding: 3em;
+}
+.container {border-radius: 15px;
+    right:100vh ;
+    text-align-last: center;
+    padding: 60px;
+    
+}
+
+button{
+color: #01292b;
+background-color: #abd890;
+border-radius: 15px;
+border-color: rgb(11, 156, 223);
+padding: 10px 5px 10px 5px;
+font-size: medium;
+padding-block: 20px;
+margin: 30px;
+box-shadow: 2px 2px 2px #7057e4;
+
+
+cursor: pointer;
+
+}
+
